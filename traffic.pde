@@ -15,7 +15,7 @@ void setup() {
   car_radius = 5;
   
   // set density of vehicles
-  car_density = 0.25;
+  car_density = 0.75;
   
   // create instance of Traffic object and draw initial traffic pattern to screen
   traffic = new Traffic(width/car_radius, car_density);
